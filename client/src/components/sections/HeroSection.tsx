@@ -43,7 +43,7 @@ export default function HeroSection() {
       <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
         <img
           className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
-          src="https://images.pexels.com/photos/1643416/pexels-photo-1643416.jpeg?auto=compress&cs=tinysrgb&w=1200"
+          src="https://grocycle.com/wp-content/uploads/2022/04/Oyster-mushrooms-growing-on-a-sawdust-block-2-1024x683.jpg?auto=compress&cs=tinysrgb&w=1200"
           alt="Various gourmet mushrooms"
         />
       </div>

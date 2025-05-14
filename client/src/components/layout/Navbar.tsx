@@ -12,7 +12,7 @@ export default function Navbar() {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Link href="/">
-              <a className="flex-shrink-0 flex items-center">
+              <div className="flex-shrink-0 flex items-center cursor-pointer">
                 <svg
                   className="h-10 w-10 text-fungi-green"
                   xmlns="http://www.w3.org/2000/svg"
@@ -30,7 +30,7 @@ export default function Navbar() {
                 <span className="ml-2 text-xl font-bold text-fungi-green font-montserrat">
                   {COMPANY_NAME}
                 </span>
-              </a>
+              </div>
             </Link>
           </div>
           <div className="hidden sm:ml-6 sm:flex sm:items-center space-x-8">

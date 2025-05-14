@@ -17,7 +17,7 @@ export const MUSHROOM_CULTURES = [
     description: 'Bright yellow clusters with a delicate flavor and aroma',
     price: 18.99,
     difficulty: 'Beginner Friendly',
-    image: 'https://images.unsplash.com/photo-1611312449408-fcece27cdbb7?w=800&auto=format&fit=crop&q=60',
+    image: 'https://images.pexels.com/photos/15016561/pexels-photo-15016561.jpeg?auto=compress&cs=tinysrgb&w=800',
   },
   {
     id: 'lions-mane',
@@ -25,7 +25,7 @@ export const MUSHROOM_CULTURES = [
     description: 'Unique texture with seafood-like flavor and health benefits',
     price: 22.99,
     difficulty: 'Intermediate',
-    image: 'https://images.unsplash.com/photo-1629946832022-c327f74956e0?w=800&auto=format&fit=crop&q=60',
+    image: 'https://images.pexels.com/photos/15016562/pexels-photo-15016562.jpeg?auto=compress&cs=tinysrgb&w=800',
   },
   {
     id: 'shiitake',
@@ -33,7 +33,7 @@ export const MUSHROOM_CULTURES = [
     description: 'Rich umami flavor perfect for Asian cuisine',
     price: 19.99,
     difficulty: 'Beginner Friendly',
-    image: 'https://images.unsplash.com/photo-1607596220774-1e7c7ee28849?w=800&auto=format&fit=crop&q=60',
+    image: 'https://images.pexels.com/photos/1627825/pexels-photo-1627825.jpeg?auto=compress&cs=tinysrgb&w=800',
   },
   {
     id: 'blue-oyster',
@@ -41,7 +41,7 @@ export const MUSHROOM_CULTURES = [
     description: 'Beautiful bluish-grey caps with mild, earthy flavor',
     price: 17.99,
     difficulty: 'Beginner Friendly',
-    image: 'https://images.unsplash.com/photo-1520273303361-5a19796e4757?w=800&auto=format&fit=crop&q=60',
+    image: 'https://images.pexels.com/photos/6260003/pexels-photo-6260003.jpeg?auto=compress&cs=tinysrgb&w=800',
   },
 ];
 
@@ -52,21 +52,21 @@ export const FEATURED_PRODUCTS = [
     name: 'Complete Growing Kit',
     description: 'Everything you need to start growing gourmet mushrooms at home',
     price: 49.99,
-    image: 'https://images.unsplash.com/photo-1697655907667-72d61dfdc1c0?w=800&auto=format&fit=crop&q=60',
+    image: 'https://images.pexels.com/photos/6044266/pexels-photo-6044266.jpeg?auto=compress&cs=tinysrgb&w=800',
   },
   {
     id: 'humidity-controller',
     name: 'Humidity Controller',
     description: 'Professional-grade humidity control for optimal growing conditions',
     price: 79.99,
-    image: 'https://images.unsplash.com/photo-1527090461107-b96a59c5a3ed?w=800&auto=format&fit=crop&q=60',
+    image: 'https://images.pexels.com/photos/7262897/pexels-photo-7262897.jpeg?auto=compress&cs=tinysrgb&w=800',
   },
   {
     id: 'organic-substrate',
     name: 'Organic Substrate',
     description: 'Premium organic substrate for healthy, abundant mushroom growth',
     price: 24.99,
-    image: 'https://images.unsplash.com/photo-1618331835717-801e976710b2?w=800&auto=format&fit=crop&q=60',
+    image: 'https://images.pexels.com/photos/4996302/pexels-photo-4996302.jpeg?auto=compress&cs=tinysrgb&w=800',
   },
   {
     id: 'monthly-culture-box',
@@ -74,7 +74,7 @@ export const FEATURED_PRODUCTS = [
     description: 'Subscription service with new cultures, tools, and growing tips',
     price: 39.99,
     subscription: true,
-    image: 'https://images.unsplash.com/photo-1606914999793-0d65eca5ad85?w=800&auto=format&fit=crop&q=60',
+    image: 'https://images.pexels.com/photos/4218662/pexels-photo-4218662.jpeg?auto=compress&cs=tinysrgb&w=800',
   },
 ];
 
@@ -117,32 +117,32 @@ export const SOCIAL_GALLERY_IMAGES = [
   {
     id: 1,
     alt: 'Golden oyster mushroom harvest',
-    src: 'https://images.unsplash.com/photo-1536764434809-5f859905217b?w=800&auto=format&fit=crop&q=60',
+    src: 'https://images.pexels.com/photos/5799654/pexels-photo-5799654.jpeg?auto=compress&cs=tinysrgb&w=800',
   },
   {
     id: 2,
     alt: 'Home mushroom growing setup',
-    src: 'https://images.unsplash.com/photo-1606914999793-0d65eca5ad85?w=800&auto=format&fit=crop&q=60',
+    src: 'https://images.pexels.com/photos/6044283/pexels-photo-6044283.jpeg?auto=compress&cs=tinysrgb&w=800',
   },
   {
     id: 3,
     alt: 'Chef cooking with fresh mushrooms',
-    src: 'https://images.unsplash.com/photo-1606914999542-68b1960b3ce5?w=800&auto=format&fit=crop&q=60',
+    src: 'https://images.pexels.com/photos/1435904/pexels-photo-1435904.jpeg?auto=compress&cs=tinysrgb&w=800',
   },
   {
     id: 4,
     alt: 'Lion\'s mane mushroom closeup',
-    src: 'https://images.unsplash.com/photo-1629946832022-c327f74956e0?w=800&auto=format&fit=crop&q=60',
+    src: 'https://images.pexels.com/photos/6044197/pexels-photo-6044197.jpeg?auto=compress&cs=tinysrgb&w=800',
   },
   {
     id: 5,
     alt: 'Basket of wild mushrooms',
-    src: 'https://images.unsplash.com/photo-1611312449412-6cefac5dc3e4?w=800&auto=format&fit=crop&q=60',
+    src: 'https://images.pexels.com/photos/1643402/pexels-photo-1643402.jpeg?auto=compress&cs=tinysrgb&w=800',
   },
   {
     id: 6,
     alt: 'Mushroom mycelium growth',
-    src: 'https://images.unsplash.com/photo-1626875522029-75be51f46d38?w=800&auto=format&fit=crop&q=60',
+    src: 'https://images.pexels.com/photos/6044282/pexels-photo-6044282.jpeg?auto=compress&cs=tinysrgb&w=800',
   },
 ];
 

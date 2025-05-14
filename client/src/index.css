@@ -1,0 +1,156 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 41 38% 95%;
+  --foreground: 30 17% 23%;
+  --muted: 60 4.8% 95.9%;
+  --muted-foreground: 25 5.3% 44.7%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 20 14.3% 4.1%;
+  --card: 0 0% 100%;
+  --card-foreground: 20 14.3% 4.1%;
+  --border: 20 5.9% 90%;
+  --input: 20 5.9% 90%;
+  --primary: 147 30% 25%;
+  --primary-foreground: 210 40% 98%;
+  --secondary: 32 18% 55%;
+  --secondary-foreground: 30 17% 23%;
+  --accent: 50 53% 82%;
+  --accent-foreground: 30 17% 23%;
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 60 9.1% 97.8%;
+  --ring: 35 91% 32%;
+  --radius: 0.5rem;
+
+  /* Custom fungi colors */
+  --fungi-green: 143 36% 23%;
+  --fungi-brown: 32 18% 55%;
+  --fungi-cream: 41 38% 95%;
+  --fungi-bark: 20 17% 23%;
+  --fungi-moss: 83 20% 52%;
+}
+
+.dark {
+  --background: 20 14.3% 4.1%;
+  --foreground: 60 9.1% 97.8%;
+  --muted: 12 6.5% 15.1%;
+  --muted-foreground: 24 5.4% 63.9%;
+  --popover: 20 14.3% 4.1%;
+  --popover-foreground: 60 9.1% 97.8%;
+  --card: 20 14.3% 4.1%;
+  --card-foreground: 60 9.1% 97.8%;
+  --border: 12 6.5% 15.1%;
+  --input: 12 6.5% 15.1%;
+  --primary: 147 30% 25%;
+  --primary-foreground: 60 9.1% 97.8%;
+  --secondary: 32 18% 55%;
+  --secondary-foreground: 60 9.1% 97.8%;
+  --accent: 50 53% 82%;
+  --accent-foreground: 60 9.1% 97.8%;
+  --destructive: 0 62.8% 30.6%;
+  --destructive-foreground: 60 9.1% 97.8%;
+  --ring: 35 91% 32%;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-fungi-cream text-fungi-bark antialiased;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .section-heading {
+    @apply font-semibold;
+  }
+}
+
+@layer utilities {
+  .bg-fungi-green {
+    background-color: hsl(143 36% 23%);
+  }
+  .bg-fungi-brown {
+    background-color: hsl(32 18% 55%);
+  }
+  .bg-fungi-cream {
+    background-color: hsl(41 38% 95%);
+  }
+  .bg-fungi-bark {
+    background-color: hsl(20 17% 23%);
+  }
+  .bg-fungi-moss {
+    background-color: hsl(83 20% 52%);
+  }
+
+  .text-fungi-green {
+    color: hsl(143 36% 23%);
+  }
+  .text-fungi-brown {
+    color: hsl(32 18% 55%);
+  }
+  .text-fungi-cream {
+    color: hsl(41 38% 95%);
+  }
+  .text-fungi-bark {
+    color: hsl(20 17% 23%);
+  }
+  .text-fungi-moss {
+    color: hsl(83 20% 52%);
+  }
+
+  .hover\:bg-fungi-green:hover {
+    background-color: hsl(143 36% 23%);
+  }
+  .hover\:bg-fungi-brown:hover {
+    background-color: hsl(32 18% 55%);
+  }
+  .hover\:bg-fungi-cream:hover {
+    background-color: hsl(41 38% 95%);
+  }
+  .hover\:bg-fungi-bark:hover {
+    background-color: hsl(20 17% 23%);
+  }
+  .hover\:bg-fungi-moss:hover {
+    background-color: hsl(83 20% 52%);
+  }
+
+  .hover\:text-fungi-green:hover {
+    color: hsl(143 36% 23%);
+  }
+  .hover\:text-fungi-brown:hover {
+    color: hsl(32 18% 55%);
+  }
+  .hover\:text-fungi-cream:hover {
+    color: hsl(41 38% 95%);
+  }
+  .hover\:text-fungi-bark:hover {
+    color: hsl(20 17% 23%);
+  }
+  .hover\:text-fungi-moss:hover {
+    color: hsl(83 20% 52%);
+  }
+
+  .border-fungi-green {
+    border-color: hsl(143 36% 23%);
+  }
+  .border-fungi-brown {
+    border-color: hsl(32 18% 55%);
+  }
+  .border-fungi-cream {
+    border-color: hsl(41 38% 95%);
+  }
+  .border-fungi-bark {
+    border-color: hsl(20 17% 23%);
+  }
+  .border-fungi-moss {
+    border-color: hsl(83 20% 52%);
+  }
+}

@@ -24,7 +24,7 @@ export default function ProductList({ activeCategory, activeFilter }: ProductLis
     if (activeFilter === 'subscription') {
       filtered = filtered.filter(product => product.subscription);
     } else if (activeFilter === 'featured') {
-      filtered = filtered.filter(product => product.featured);
+      filtered = filtered.filter(product => 'featured' in product && product.featured);
     } else if (activeFilter === 'price-low') {
       filtered = filtered.sort((a, b) => a.price - b.price);
     } else if (activeFilter === 'price-high') {
@@ -76,7 +76,7 @@ export default function ProductList({ activeCategory, activeFilter }: ProductLis
                   Subscription
                 </Badge>
               )}
-              {product.featured && (
+              {'featured' in product && product.featured && (
                 <Badge className="absolute top-2 left-2 bg-fungi-brown text-white">
                   Featured
                 </Badge>

@@ -47,7 +47,7 @@ export default function FeaturedCategories({ setActiveCategory }: FeaturedCatego
   return (
     <div className="bg-white py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-3xl font-extrabold text-fungi-green text-center mb-6">Shop By Category</h2>
+        <h2 className="text-3xl font-extrabold text-white bg-fungi-green py-4 rounded-md text-center mb-6">Shop By Category</h2>
         <p className="text-center text-lg text-gray-600 mb-8 max-w-3xl mx-auto">
           Find everything you need for your mushroom growing journey
         </p>

@@ -1,0 +1,54 @@
+A sleek and modern website for a gourmet mushroom cultivation supply company. IMPORTANT!!! Follow the DEFINED STRUCTURE!
+
+The company is called Frontier Fungi and is centered around sustainability, natural practices, and providing access and edcuation so that anyone can cultivate their own gourmet mushrooms at home. include educational content and resources for growing as well as all of the tools and supplies to get from spore to plate with ease. there will be a premium section for StamBot, an AI-based chatbot that acts as an expert advisor to users during every step of the cultivation process. Be sure to showcase StamBot after the cultivation supplies and edcuational resources have come first. Frontier Fungi offers cultures, growing media, grains, bulk spawn, tools, growing chambers, automation setups, wellness products from mushrooms (such as tinctures, balms, dried products, teas, extracts), guides, apparel, merchandise, and mushroom artwork. The design should be organic and clean, not using buzzwordy or trendy words but instead practical, simple and straightforward language. All images should pertain to mushrooms, fungus, or similar nature style. 
+
+DEFINED STRUCTURE:
+
+Floating banner offering free shipping on orders over $75
+nav bar [logo/brandname, shop, learn, connect]
+main webpage image/hero section with CTA and buttons
+featured products
+featured cultures
+why choose us
+what we offer
+learn how to grow
+introducing StamBot
+what customers say
+join the community – sign up for newsletter
+social media gallery highlights
+contact form
+CTA
+footer
+
+specifics:
+Floating banner to advertise free shipping on orders over $75. Navigation bar at the top should be simple and only include logo/brandname, Shop, Learn, and Contact. Right after the main image is displayed at the top of the site, there should be a section showing the most popular or featured products. Below the culture library, feature subscription package service. Offer a subscription based service with monthly cultures, mushroom based products, tools, artwork, tips/news, and any other things that might be associated with a top-tier subscription box service pertaining to gourmet mushrooms. A subsection of Learn will be an interactive mushroom cultivation guide. Premium subscribers get StamBot with progress tracking and custom tailored cultivation guidance. Also in the learn section: Create advanced filtering system for mushroom varieties based on growing conditions.
+
+There are a variety of different species that will be offered to start. Include them in the culture library, a subsection of the Shop. Feature a few of the cultures from the culture library on the main page, but only show all of them in the culture library subsection. Following are the offered species:
+
+Golden Oyster
+Blue Oyster
+Pearl Oyster
+King Oyster
+Pink Oyster
+Phoenix Oyster
+Elm Oyster
+Shiitake
+Lion’s Mane
+Maitake
+Morel
+Chanterelle
+Black Trumpet
+Beech Mushroom
+Pioppino
+Enoki
+Porcini
+Chestnut Mushroom
+Wine Cap
+Cauliflower Mushroom
+Paddy Straw Mushroom
+Wood Blewit
+Velvet Foot
+Turkey Tail
+Chaga
+Reishi
+Cordyceps

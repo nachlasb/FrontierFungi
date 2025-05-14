@@ -1,14 +1,24 @@
-import { Link } from "wouter";
+import { useCallback } from "react";
+import { useLocation } from "wouter";
 import { COMPANY_NAME, FOOTER_LINKS } from "@/lib/constants";
 import { Facebook, Instagram, Twitter, Github } from "lucide-react";
 
 export default function Footer() {
+  const [, setLocation] = useLocation();
+  
+  const navigate = useCallback((path: string) => {
+    setLocation(path);
+  }, [setLocation]);
+
   return (
     <footer className="bg-fungi-green text-white pt-12 pb-6">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           <div>
-            <div className="flex items-center mb-4">
+            <div 
+              className="flex items-center mb-4 cursor-pointer" 
+              onClick={() => navigate("/")}
+            >
               <svg
                 className="h-8 w-8 text-white"
                 xmlns="http://www.w3.org/2000/svg"
@@ -32,25 +42,33 @@ export default function Footer() {
             </p>
             <div className="flex space-x-4">
               <a
-                href="#"
+                href="https://facebook.com" 
+                target="_blank" 
+                rel="noopener noreferrer"
                 className="text-white text-opacity-80 hover:text-opacity-100"
               >
                 <Facebook className="h-6 w-6" />
               </a>
               <a
-                href="#"
+                href="https://instagram.com" 
+                target="_blank" 
+                rel="noopener noreferrer"
                 className="text-white text-opacity-80 hover:text-opacity-100"
               >
                 <Instagram className="h-6 w-6" />
               </a>
               <a
-                href="#"
+                href="https://twitter.com" 
+                target="_blank" 
+                rel="noopener noreferrer"
                 className="text-white text-opacity-80 hover:text-opacity-100"
               >
                 <Twitter className="h-6 w-6" />
               </a>
               <a
-                href="#"
+                href="https://github.com" 
+                target="_blank" 
+                rel="noopener noreferrer"
                 className="text-white text-opacity-80 hover:text-opacity-100"
               >
                 <Github className="h-6 w-6" />
@@ -63,12 +81,12 @@ export default function Footer() {
             <ul className="space-y-2">
               {FOOTER_LINKS.shop.map((link) => (
                 <li key={link.name}>
-                  <a
-                    href={link.href}
-                    className="text-white text-opacity-80 hover:text-opacity-100"
+                  <span 
+                    className="text-white text-opacity-80 hover:text-opacity-100 cursor-pointer"
+                    onClick={() => navigate(link.href)}
                   >
                     {link.name}
-                  </a>
+                  </span>
                 </li>
               ))}
             </ul>
@@ -81,12 +99,12 @@ export default function Footer() {
             <ul className="space-y-2">
               {FOOTER_LINKS.learn.map((link) => (
                 <li key={link.name}>
-                  <a
-                    href={link.href}
-                    className="text-white text-opacity-80 hover:text-opacity-100"
+                  <span 
+                    className="text-white text-opacity-80 hover:text-opacity-100 cursor-pointer"
+                    onClick={() => navigate(link.href)}
                   >
                     {link.name}
-                  </a>
+                  </span>
                 </li>
               ))}
             </ul>
@@ -97,14 +115,22 @@ export default function Footer() {
               Company
             </h3>
             <ul className="space-y-2">
+              <li>
+                <span 
+                  className="text-white text-opacity-80 hover:text-opacity-100 cursor-pointer"
+                  onClick={() => navigate("/")}
+                >
+                  Home
+                </span>
+              </li>
               {FOOTER_LINKS.company.map((link) => (
                 <li key={link.name}>
-                  <a
-                    href={link.href}
-                    className="text-white text-opacity-80 hover:text-opacity-100"
+                  <span 
+                    className="text-white text-opacity-80 hover:text-opacity-100 cursor-pointer"
+                    onClick={() => navigate(link.href)}
                   >
                     {link.name}
-                  </a>
+                  </span>
                 </li>
               ))}
             </ul>
@@ -118,13 +144,13 @@ export default function Footer() {
           </p>
           <div className="mt-4 md:mt-0 flex flex-wrap space-x-6">
             {FOOTER_LINKS.legal.map((link) => (
-              <a
+              <span 
                 key={link.name}
-                href={link.href}
-                className="text-sm text-white text-opacity-60 hover:text-opacity-100"
+                className="text-sm text-white text-opacity-60 hover:text-opacity-100 cursor-pointer"
+                onClick={() => navigate(link.href)}
               >
                 {link.name}
-              </a>
+              </span>
             ))}
           </div>
         </div>

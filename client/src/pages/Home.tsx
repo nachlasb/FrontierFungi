@@ -8,7 +8,7 @@ import StamBotSection from "@/components/sections/StamBotSection";
 import Testimonials from "@/components/sections/Testimonials";
 import NewsletterSignup from "@/components/sections/NewsletterSignup";
 import SocialGallery from "@/components/sections/SocialGallery";
-import ContactForm from "@/components/sections/ContactForm";
+import ConnectSection from "@/components/sections/ConnectSection";
 import FinalCTA from "@/components/sections/FinalCTA";
 import { Helmet } from "react-helmet";
 
@@ -33,7 +33,7 @@ export default function Home() {
       <Testimonials />
       <NewsletterSignup />
       <SocialGallery />
-      <ContactForm />
+      <ConnectSection />
       <FinalCTA />
     </>
   );
